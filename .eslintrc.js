@@ -11,6 +11,7 @@ module.exports = {
   },
   rules: {
     'no-console': ['warn', {allow: ['warn', 'error', 'info']}],
-    'comma-dangle': 'off'
+    'comma-dangle': 'off',
+    'new-cap': ['error', {'capIsNewExceptions': ['Router', 'ObjectId']}]
   }
 };
