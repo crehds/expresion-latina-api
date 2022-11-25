@@ -42,11 +42,7 @@ class PostersService {
    * @return {Posters}
    */
   async createPosters(posters) {
-    const promises = posters.map( async (poster) => {
-      const tmp = await googleService.generateURl(poster);
-      return tmp;
-    });
-    const publicUrls = await Promise.allSettled(promises);
+    const publicUrls = await googleService.generateManyURI(posters);
 
     const newPosters = posters.map(
         (poster, i) => {

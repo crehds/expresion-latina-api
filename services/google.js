@@ -42,11 +42,27 @@ class GoogleService {
   /**
    * Generate a  public url for the file
    * @param {file} file with any extension
-   * @return {url}
+   * @return {Promise<url>}
    */
-  async generateURl(file) {
+  async generateURI(file) {
     const publicUrl = await this.#save(file);
     return publicUrl;
+  }
+
+  /**
+   * Generate many publics url for files
+   * @param {files} files with an image
+   * @return {Promise<Array<uri>>} public urls
+   */
+  async generateManyURI(files) {
+    const promises = files.map( async (poster) => {
+      const tmp = await this.generateURI(poster);
+      return tmp;
+    });
+
+    const publicUrls = await Promise.allSettled(promises);
+
+    return publicUrls;
   }
 }
 
