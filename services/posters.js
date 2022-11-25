@@ -37,28 +37,29 @@ class PostersService {
   }
 
   /**
-   * Save one poster in bucket
-   * @param {File} poster with some information
-   * @return {url}
-   */
-  async createPoster(poster) {
-    const result = await googleService.generateURl(poster);
-    return result;
-  }
-
-  /**
    * Save posters in bucket
    * @param {Files} posters with some information
    * @return {Posters}
    */
   async createPosters(posters) {
-    const result = posters.map( async (poster) => {
-      const tmp = await this.createPoster(poster);
+    const promises = posters.map( async (poster) => {
+      const tmp = await googleService.generateURl(poster);
       return tmp;
     });
+    const publicUrls = await Promise.allSettled(promises);
 
-    return Promise.allSettled(result);
+    const newPosters = posters.map(
+        (poster, i) => {
+          const {originalname, mimetype, size} = poster;
+          return {originalname, mimetype, size, publicUrl: publicUrls[i]};
+        }
+    );
+
+    const savedPosters = await this.lib.insertMany('posters', newPosters);
+
+    return savedPosters;
   }
+
 
   // async createPoster({posters}) {
   //   const arrayCreatedPosters = await this.createOrUpdate(null, posters);
