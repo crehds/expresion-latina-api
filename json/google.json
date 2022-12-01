@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "pysa-c3bb9",
+  "private_key_id": "daffc76b139017512d155147bbc046db134d51bf",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCXUkdpoDacI3fw\ncnB0CcXVs5tmXujSlrS5Neadyt/Sn29hscVedmTgA5wgSGiE1Zw8g2SZ8M6c7RCB\nNDqFAfiahrUFmL1yC7zbHoJAiAh+KpjeyQEpvhTluThupb1Iz5OAxBldw3d65ROA\nGdb9E9TuYC7pCFCdwNai8TdL54IaN1t6XHtRHtS2UMCN8l0JTyrQHm22VOyprY68\nO9RASC0lYjltvWe0VTMaVSJCpJWSIwXRY7fbeTgD51jIOlw5653nvejF4je7d3hJ\nYislh/O9yZYGvGJACsA+b1KaCJ47V5aRJosf1Lij8hkEFvt1xN+crYjCVorNkuAp\ngejYcJKZAgMBAAECggEABAT4RwktnV6HBEJsU9vumItf+76Jo9spvo58xOdrcPmX\n+80jcPiA6KWWTN7StLSRcdbYbtf2pQFAoi30LMd6OW1alMt51lp5dou/UF3mQkB5\nAj66/GDc+gnxdcu+CDEU7SN7iQIOkM64HEiTbVizHAg+0Fg0/y7s6wCwd1Ou7dAZ\nwWu/mIOY5jG7Ig4/o+O2NKoIUaDBQyZgaxCc0MPsgHHoLow3Bc1QgFbQT+RsNY54\nyRaCIoVtMn1kje1XbGt/FXGc8DtfZcvHtTtcZD7tzrp6L9gVi6MOcAcIVFOkPpzi\nihwERhakeMq90Uzo7XkyozP2YXo+PIQBZCP6nIrIAQKBgQDLOKspjj6oWu9Kzc59\nMKRBT286r6gcroqa8d9oNNp0zeEtmo3DwXChpl+0Ac5VuN9TbVtrx0Vpg6Qjs9v4\nXBD9R7ZdmrcxG1kh74vH4GlW5OZ++hqcbJL6i+7M4N8UeOiso9GYIh9aXT100GSn\n12VUOVaJ5Rm8RfmPz20qVzN/BwKBgQC+nwA6i9FgkGfaXsKvD7RARVrv5kgm76kE\nDI/4E8pbdswDSZksl+bvcfEZgJx4Q3VaOF8eC4+c3cOVTBcD18cNqc8xfEx9+6a0\nUdtTU+zmIgWLLbWvobt3mMGldu5lMVNzQF4gzJLfxWjYjHjSj/FpGAQspwczp0Tq\ncrP8i71ZXwKBgBRtsecPgYTy/zMJ1UQIa7qU/Z1sov2fHhfNUKPtDDjJqWUoMDAJ\ndgUJ8Hzr4Y4Ec46zY4lGEtg0f3+HSQmCV8LePprSPrAVC7S5m9eP24b8o58IDTzE\nPVIqVusJf+NS9DDGlv8wDu7KiK8Bc9zbbjg1O1nJSfj/H8MxGswyz95pAoGBAJTK\n4A7THLhXf/lAho7Hn1eby4P/KMrbv/5dH/Pw3r/OVykpxdq9J5I4So4xifGGFpA5\n+GUneQ5lPEnJfx2MzN+pcQWblMmyKUoPqze8BusMG2+sWmmhwQd1wZI655MtkYog\n8FiB1xO8sD54R8d0fGggSwHfzwtOwciPiFbVbRPZAoGBAJUKHRNlXbosed9KigW7\nitYBk/+NT0s9uKo8CXXjoiO7aE4FZSuYrp0DNzMmxQrkNxV71LImgy/FQs0XAI7M\nAyGKcxXl1e10tjrA1YqyOUtx4fB5tTF5POIR2cHOO/+lsXZbysVI96YJ2Omaw8uI\nhPUnHzzLpxP+DQ6UD01raKdH\n-----END PRIVATE KEY-----\n",
+  "client_email": "expresion-latina-api@pysa-c3bb9.iam.gserviceaccount.com",
+  "client_id": "103034460234176677023",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/expresion-latina-api%40pysa-c3bb9.iam.gserviceaccount.com"
+}
